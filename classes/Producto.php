@@ -23,4 +23,10 @@ class Producto {
     public function create() {
         return "Producto creado en el sistema";
     }
+    
+    public function production_method() {
+        $this->id = 1;
+        $this->nombre = 'El bananero';
+        return $this->nombre;
+    }
 }
