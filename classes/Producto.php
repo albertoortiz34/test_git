@@ -29,4 +29,12 @@ class Producto {
         $this->nombre = 'El bananero';
         return $this->nombre;
     }
+    
+    public function fix_algo() {
+        return 'fix algo reparado';
+    }
+    
+    public function fix_otro($param) {
+        return $param;
+    }
 }
