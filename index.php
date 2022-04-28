@@ -14,6 +14,12 @@ and open the template in the editor.
         // put your code here
 
         //nueva funcionalidad agregada
+
+        array(
+            'name' => 12321321312,
+            'email' => 'nueva',
+            ''
+        );
         ?>
     </body>
 </html>
